@@ -1,8 +1,8 @@
-import express from 'express';
-import router from './routes/router';
 import * as dotenv from 'dotenv';
-import cors from 'cors';
 dotenv.config();
+import router from '@/routes/router';
+import express from 'express';
+import cors from 'cors';
 const app = express();
 
 // Configure CORS globally
